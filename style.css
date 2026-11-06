@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --cor-fundo: #000000;
+    --cor-principal: #D4AF37;
+
+       --fonte-logo: 'Cormorant Garamond', serif;
+    --fonte-titulos: 'Playfair Display', serif;
+    --fonte-textos: 'Montserrat', sans-serif;
+}
+
+
+
+body{
+font-family: var(--fonte-textos);
+background-color: var(--cor-fundo);
+color: var(--cor-principal);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+  position: relative;
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--cor-branca);
+  font-family: "Dancing Script", sans-serif;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.logo a:hover {
+  color: var(--cor-titulo);
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu li{
+    
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--cor-texto);
+}
